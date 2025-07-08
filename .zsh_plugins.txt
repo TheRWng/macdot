@@ -1,0 +1,5 @@
+zsh-users/zsh-completions kind:fpath path:src
+zsh-users/zsh-autosuggestions kind:defer
+zdharma-continuum/fast-syntax-highlighting kind:defer
+sindresorhus/pure kind:fpath
+sineto/web-search kind:defer
