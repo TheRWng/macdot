@@ -44,6 +44,10 @@ if.app-name-regex-substring = 'telegram'
 run = 'layout floating'
 
 [[on-window-detected]]
+if.app-name-regex-substring = 'whatsapp'
+run = 'layout floating'
+
+[[on-window-detected]]
 if.app-name-regex-substring = 'camera'
 run = 'layout floating'
 
