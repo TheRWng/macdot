@@ -168,9 +168,10 @@ alt-shift-0 = 'move-node-to-workspace 10 --focus-follows-window'
 alt-shift-semicolon = 'mode service'
 alt-shift-enter = 'mode apps'
 
-alt-enter = 'exec-and-forget open -a /Applications/Ghostty.app'
-alt-b = 'exec-and-forget open -a /Applications/Zen.app'
+alt-enter = 'exec-and-forget open -n /Applications/Ghostty.app'
+alt-b = 'exec-and-forget open -n /Applications/Zen.app'
 alt-d = 'exec-and-forget open -a /Applications/Raycast.app'
+alt-q = "close --quit-if-last-window"
 
 # 'service' binding mode declaration.
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes

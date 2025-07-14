@@ -29,7 +29,6 @@ eval "$(atuin init zsh)"
 bindkey '^[[27;2;13~' autosuggest-accept    # shift+enter
 
 # Aliases
-alias new='open -n -a'
 alias vim='nvim'
 alias tmux="tmux -2"
 alias find='fd'
