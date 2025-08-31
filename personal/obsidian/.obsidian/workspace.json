@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "410a1386512bc7c4",
+        "id": "f25184e307fd2fca",
         "type": "tabs",
         "children": [
           {
-            "id": "ebb3eadaa9f1cc4a",
+            "id": "4f5a2e9ed2070ea3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "obsidian/Modeling&DataAnalytics/Notes.md",
+                "file": "sync/Modeling&DataAnalytics/Notes.md",
                 "mode": "source",
                 "source": false
               },
@@ -190,10 +190,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ebb3eadaa9f1cc4a",
+  "active": "28331d8605e23791",
   "lastOpenFiles": [
+    "sync/README.md",
+    "sync/Modeling&DataAnalytics/Notes.md",
+    "sync",
     "obsidian/README.md",
-    "obsidian/Modeling&DataAnalytics/Notes.md",
     "obsidian",
     "test.py.md",
     "Untitled.canvas",

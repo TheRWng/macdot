@@ -31,6 +31,6 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "obsidian/Modeling&DataAnalytics": "LiFolder",
-  "obsidian/Modeling&DataAnalytics/Notes.md": "LiFile"
+  "sync/Modeling&DataAnalytics": "LiFolder",
+  "sync/Modeling&DataAnalytics/Notes.md": "LiFile"
 }
