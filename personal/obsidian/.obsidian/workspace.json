@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modeling&DataAnalytics/Notes.md",
+                "file": "obsidian/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Notes"
+              "title": "README"
             }
           }
         ]
@@ -186,13 +186,16 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "ebb3eadaa9f1cc4a",
   "lastOpenFiles": [
-    "test.py.md",
     "Modeling&DataAnalytics/Notes.md",
+    "obsidian/README.md",
+    "obsidian",
+    "test.py.md",
     "Untitled.canvas",
     "2025-08-31.md",
     "Untitled.base"
