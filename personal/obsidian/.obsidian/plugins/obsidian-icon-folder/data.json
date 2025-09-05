@@ -32,5 +32,9 @@
     "useInternalPlugins": false
   },
   "sync/Modeling&DataAnalytics": "LiFolder",
-  "sync/Modeling&DataAnalytics/Notes.md": "LiFile"
+  "sync/Modeling&DataAnalytics/Notes.md": "LiFile",
+  "sync/WAD2": "LiFolder",
+  "sync/Teaching Assistant": "LiFolder",
+  "sync/IDP": "LiFolder",
+  "sync/BusinessProcessAnalysis&Solutioning": "LiFolder"
 }
