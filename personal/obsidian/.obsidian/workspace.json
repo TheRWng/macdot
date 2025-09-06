@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sync/IDP/Week 3.md",
+                "file": "sync/zzz/obsidian.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 3"
+              "title": "obsidian"
             }
           }
         ]
@@ -144,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sync/IDP/Week 3.md",
+                "file": "sync/zzz/obsidian.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Week 3"
+              "title": "Outline of obsidian"
             }
           }
         ],
@@ -194,23 +194,23 @@
   },
   "active": "d749e897c6da4b57",
   "lastOpenFiles": [
-    "sync/zzz/test.md",
-    "sync/IDP/Week 3.md",
-    "sync/zzz/obsidian.md",
     "sync/zzz/Todo.md",
-    "sync/zzz/Misc.md",
+    "sync/zzz/obsidian.md",
     "sync/zzz/secret sauce.md",
-    "sync/BusinessProcessAnalysis&Solutioning/Graded.md",
+    "sync/zzz/Misc.md",
     "sync/zzz/Blacklist.md",
+    "sync/IDP/Week 3.md",
+    "sync/WAD2/Todo.md",
     "sync/WAD2/Graded.md",
-    "sync/Modeling&DataAnalytics/Graded.md",
-    "sync/Modeling&DataAnalytics/Todo.md",
     "sync/Teaching Assistant/Todo.md",
+    "sync/Teaching Assistant",
+    "sync/Modeling&DataAnalytics/Todo.md",
+    "sync/Modeling&DataAnalytics/Graded.md",
     "sync/IDP/Todo.md",
     "sync/BusinessProcessAnalysis&Solutioning/Todo.md",
+    "sync/BusinessProcessAnalysis&Solutioning/Graded.md",
+    "sync/zzz/test.md",
     "sync/BusinessProcessAnalysis&Solutioning/Week3Modelling.md",
-    "sync/Teaching Assistant",
-    "sync/WAD2/Todo.md",
     "sync/WAD2/Bootstrap.md",
     "sync/WAD2/Playwright commands.md",
     "sync/IDP",
@@ -237,7 +237,6 @@
     "sync/Modeling&DataAnalytics",
     "sync",
     "sync/README.md",
-    "obsidian/README.md",
     "obsidian",
     "Untitled.base"
   ]
