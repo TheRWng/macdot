@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiAlertCircle",
       "LiFile",
       "LiFolder"
     ],
@@ -36,5 +37,6 @@
   "sync/WAD2": "LiFolder",
   "sync/Teaching Assistant": "LiFolder",
   "sync/IDP": "LiFolder",
-  "sync/BusinessProcessAnalysis&Solutioning": "LiFolder"
+  "sync/BusinessProcessAnalysis&Solutioning": "LiFolder",
+  "sync/zzz/Todo.md": "LiAlertCircle"
 }

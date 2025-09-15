@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8dbf37d478adfc07",
+        "id": "0376a4b16f845293",
         "type": "tabs",
         "children": [
           {
-            "id": "d749e897c6da4b57",
+            "id": "2b29875765885ea0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sync/zzz/obsidian.md",
+                "file": "sync/BusinessProcessAnalysis&Solutioning/Proj/Week 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "obsidian"
+              "title": "Week 5"
             }
           }
         ]
@@ -144,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sync/zzz/obsidian.md",
+                "file": "sync/Modeling&DataAnalytics/Notes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of obsidian"
+              "title": "Outline of Notes"
             }
           }
         ],
@@ -175,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5
+    "width": 245.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,52 +193,53 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "d749e897c6da4b57",
+  "active": "2b29875765885ea0",
   "lastOpenFiles": [
     "sync/zzz/Todo.md",
-    "sync/zzz/obsidian.md",
-    "sync/zzz/secret sauce.md",
-    "sync/zzz/Misc.md",
-    "sync/zzz/Blacklist.md",
-    "sync/IDP/Week 3.md",
-    "sync/WAD2/Todo.md",
-    "sync/WAD2/Graded.md",
-    "sync/Teaching Assistant/Todo.md",
-    "sync/Teaching Assistant",
-    "sync/Modeling&DataAnalytics/Todo.md",
-    "sync/Modeling&DataAnalytics/Graded.md",
-    "sync/IDP/Todo.md",
+    "sync/BusinessProcessAnalysis&Solutioning/Proj/Week 5.md",
+    "SGH-AE-Workflow-Analysis.md",
+    "sync/BusinessProcessAnalysis&Solutioning/Proj/Stakeholders.md",
+    "sync/BusinessProcessAnalysis&Solutioning/Week3Modelling.md",
+    "sync/BusinessProcessAnalysis&Solutioning/Week4Analysis.md",
     "sync/BusinessProcessAnalysis&Solutioning/Todo.md",
     "sync/BusinessProcessAnalysis&Solutioning/Graded.md",
-    "sync/zzz/test.md",
-    "sync/BusinessProcessAnalysis&Solutioning/Week3Modelling.md",
-    "sync/WAD2/Bootstrap.md",
+    "sync/BusinessProcessAnalysis&Solutioning/Proj",
+    "sync/BusinessProcessAnalysis&Solutioning/SghKeyBusinessStakeholders.md",
+    "sync/zzz/obsidian.md",
+    "sync/zzz/Blacklist.md",
+    "2025-09-12.md",
+    "sync/zzz/Misc.md",
+    "sync/IDP/Project.md",
+    "sync/Modeling&DataAnalytics/Todo.md",
+    "sync/Modeling&DataAnalytics/Week 4.md",
+    "sync/Modeling&DataAnalytics/Notes.md",
+    "sync/zzz/pictures/Pasted image 20250903231352.png",
+    "sync/Modeling&DataAnalytics/Week 3.md",
+    "2025-09-09.md",
+    "sync/WAD2/Todo.md",
+    "sync/WAD2/Week 4.md",
     "sync/WAD2/Playwright commands.md",
-    "sync/IDP",
-    "sync/zzz/interview.md",
-    "Untitled.canvas",
+    "sync/Modeling&DataAnalytics/Graded.md",
+    "sync/zzz/pictures/Screenshot 2025-09-02 at 15.54.45.jpg",
+    "sync/zzz/pictures/Screenshot 2025-09-02 at 18.07.08.jpg",
+    "sync/zzz/pictures/Screenshot 2025-09-02 at 18.11.09.jpg",
+    "sync/zzz/pictures/Screenshot 2025-09-02 at 18.11.55.jpg",
+    "sync/zzz/pictures/Screenshot 2025-09-02 at 15.50.14.jpg",
     "sync/zzz/pictures/Pasted image 20250904010816.png",
     "sync/zzz/pictures/Pasted image 20250904005658.png",
-    "temp.md",
     "sync/zzz/pictures/Pasted image 20250904000222.png",
-    "sync/zzz/pictures/Pasted image 20250903231352.png",
-    "sync/zzz/pictures/Screenshot 2025-09-02 at 15.50.14.jpg",
-    "sync/Modeling&DataAnalytics/Notes.md",
-    "sync/Modeling&DataAnalytics/Week 3.md",
-    "sync/zzz/pictures/Screenshot 2025-09-02 at 18.07.08.jpg",
-    "sync/zzz/pictures/Screenshot 2025-09-02 at 15.54.45.jpg",
-    "sync/zzz/pictures/Screenshot 2025-09-02 at 18.11.55.jpg",
-    "sync/zzz/pictures/Screenshot 2025-09-02 at 18.11.09.jpg",
+    "sync/IDP/Todo.md",
+    "sync/zzz/secret sauce.md",
+    "sync/IDP/Week 3.md",
+    "sync/Teaching Assistant",
+    "sync/IDP",
+    "Untitled.canvas",
     "sync/zzz/pictures",
     "sync/zzz",
     "sync/WAD2",
     "sync/BusinessProcessAnalysis&Solutioning",
-    "sync/Modeling&DataAnalytics/test.md",
-    "sync/Modeling&DataAnalytics/test.md",
     "sync/Modeling&DataAnalytics",
     "sync",
-    "sync/README.md",
-    "obsidian",
-    "Untitled.base"
+    "obsidian"
   ]
 }
