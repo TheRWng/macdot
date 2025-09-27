@@ -1,1 +1,1 @@
-return { "echasnovski/mini.surround", version = false }
+return { "nvim-mini/mini.surround", version = false }

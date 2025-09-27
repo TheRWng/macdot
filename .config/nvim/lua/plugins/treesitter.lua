@@ -1,93 +1,124 @@
 return {
-  {
-    "nvim-treesitter/nvim-treesitter",
-    config = function()
-      require("nvim-treesitter.configs").setup({
-        -- A list of parser names, or "all"
-        ensure_installed = {
-          "vimdoc",
-          "javascript",
-          "typescript",
-          "c",
-          "lua",
-          "rust",
-          "jsdoc",
-          "bash",
-          "go",
+    {
+        "nvim-treesitter/nvim-treesitter",
+        branch = "main",
+        version = false, -- last release is way too old and doesn't work on Windows
+        build = function()
+            local TS = require("nvim-treesitter")
+            if not TS.get_installed then
+                LazyVim.error("Please restart Neovim and run `:TSUpdate` to use the `nvim-treesitter` **main** branch.")
+                return
+            end
+            LazyVim.treesitter.ensure_treesitter_cli(function()
+                TS.update(nil, { summary = true })
+            end)
+        end,
+        lazy = vim.fn.argc(-1) == 0, -- load treesitter early when opening a file from the cmdline
+        event = { "LazyFile", "VeryLazy" },
+        cmd = { "TSUpdate", "TSInstall", "TSLog", "TSUninstall" },
+        opts_extend = { "ensure_installed" },
+        ---@class lazyvim.TSConfig: TSConfig
+        opts = {
+            -- LazyVim config for treesitter
+            indent = { enable = true },
+            highlight = { enable = true },
+            folds = { enable = true },
+            ensure_installed = {
+                "bash",
+                "c",
+                "diff",
+                "html",
+                "javascript",
+                "jsdoc",
+                "json",
+                "jsonc",
+                "lua",
+                "luadoc",
+                "luap",
+                "markdown",
+                "markdown_inline",
+                "printf",
+                "python",
+                "query",
+                "regex",
+                "toml",
+                "tsx",
+                "typescript",
+                "vim",
+                "vimdoc",
+                "xml",
+                "yaml",
+            },
         },
+        ---@param opts lazyvim.TSConfig
+        config = function(_, opts)
+            local TS = require("nvim-treesitter")
 
-        -- Install parsers synchronously (only applied to `ensure_installed`)
-        sync_install = false,
+            setmetatable(require("nvim-treesitter.install"), {
+                __newindex = function(_, k)
+                    if k == "compilers" then
+                        vim.schedule(function()
+                            LazyVim.error({
+                                "Setting custom compilers for `nvim-treesitter` is no longer supported.",
+                                "",
+                                "For more info, see:",
+                                "- [compilers](https://docs.rs/cc/latest/cc/#compile-time-requirements)",
+                            })
+                        end)
+                    end
+                end,
+            })
 
-        -- Automatically install missing parsers when entering buffer
-        -- Recommendation: set to false if you don"t have `tree-sitter` CLI installed locally
-        auto_install = true,
-
-        indent = {
-          enable = true,
-        },
-
-        highlight = {
-          -- `false` will disable the whole extension
-          enable = true,
-          disable = function(lang, buf)
-            if lang == "html" then
-              print("disabled")
-              return true
+            -- some quick sanity checks
+            if not TS.get_installed then
+                return LazyVim.error("Please use `:Lazy` and update `nvim-treesitter`")
+            elseif type(opts.ensure_installed) ~= "table" then
+                return LazyVim.error("`nvim-treesitter` opts.ensure_installed must be a table")
             end
 
-            local max_filesize = 100 * 1024 -- 100 KB
-            local ok, stats = pcall(vim.loop.fs_stat, vim.api.nvim_buf_get_name(buf))
-            if ok and stats and stats.size > max_filesize then
-              vim.notify(
-                "File larger than 100KB treesitter disabled for performance",
-                vim.log.levels.WARN,
-                { title = "Treesitter" }
-              )
-              return true
+            -- setup treesitter
+            TS.setup(opts)
+            LazyVim.treesitter.get_installed(true) -- initialize the installed langs
+
+            -- install missing parsers
+            local install = vim.tbl_filter(function(lang)
+                return not LazyVim.treesitter.have(lang)
+            end, opts.ensure_installed or {})
+            if #install > 0 then
+                LazyVim.treesitter.ensure_treesitter_cli(function()
+                    TS.install(install, { summary = true }):await(function()
+                        LazyVim.treesitter.get_installed(true) -- refresh the installed langs
+                    end)
+                end)
             end
-          end,
 
-          -- Setting this to true will run `:h syntax` and tree-sitter at the same time.
-          -- Set this to `true` if you depend on "syntax" being enabled (like for indentation).
-          -- Using this option may slow down your editor, and you may see some duplicate highlights.
-          -- Instead of true it can also be a list of languages
-          additional_vim_regex_highlighting = { "markdown" },
-        },
-      })
+            vim.api.nvim_create_autocmd("FileType", {
+                group = vim.api.nvim_create_augroup("lazyvim_treesitter", { clear = true }),
+                callback = function(ev)
+                    if not LazyVim.treesitter.have(ev.match) then
+                        return
+                    end
 
-      local treesitter_parser_config = require("nvim-treesitter.parsers").get_parser_configs()
-      treesitter_parser_config.templ = {
-        install_info = {
-          url = "https://github.com/vrischmann/tree-sitter-templ.git",
-          files = { "src/parser.c", "src/scanner.c" },
-          branch = "master",
-        },
-      }
+                    -- highlighting
+                    if vim.tbl_get(opts, "highlight", "enable") ~= false then
+                        pcall(vim.treesitter.start)
+                    end
 
-      vim.treesitter.language.register("templ", "templ")
-    end,
-  },
+                    -- indents
+                    if
+                        vim.tbl_get(opts, "indent", "enable") ~= false and LazyVim.treesitter.have(ev.match, "indents")
+                    then
+                        LazyVim.set_default("indentexpr", "v:lua.LazyVim.treesitter.indentexpr()")
+                    end
 
-  {
-    "nvim-treesitter/nvim-treesitter-context",
-    after = "nvim-treesitter",
-    config = function()
-      require("treesitter-context").setup({
-        enable = true, -- Enable this plugin (Can be enabled/disabled later via commands)
-        multiwindow = false, -- Enable multiwindow support.
-        max_lines = 0, -- How many lines the window should span. Values <= 0 mean no limit.
-        min_window_height = 0, -- Minimum editor window height to enable context. Values <= 0 mean no limit.
-        line_numbers = true,
-        multiline_threshold = 20, -- Maximum number of lines to show for a single context
-        trim_scope = "outer", -- Which context lines to discard if `max_lines` is exceeded. Choices: 'inner', 'outer'
-        mode = "cursor", -- Line used to calculate context. Choices: 'cursor', 'topline'
-        -- Separator between context and content. Should be a single character string, like '-'.
-        -- When separator is set, the context will only show up when there are at least 2 lines above cursorline.
-        separator = nil,
-        zindex = 20, -- The Z-index of the context window
-        on_attach = nil, -- (fun(buf: integer): boolean) return false to disable attaching
-      })
-    end,
-  },
+                    -- folds
+                    if vim.tbl_get(opts, "folds", "enable") ~= false and LazyVim.treesitter.have(ev.match, "folds") then
+                        if LazyVim.set_default("foldmethod", "expr") then
+                            LazyVim.set_default("foldexpr", "v:lua.LazyVim.treesitter.foldexpr()")
+                        end
+                    end
+                end,
+            })
+        end,
+    },
 }
