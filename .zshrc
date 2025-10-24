@@ -14,7 +14,7 @@ source <(fzf --zsh)
 # atuin register -u <USERNAME> -e <EMAIL>
 # atuin import auto
 # atuin sync
-eval "$(atuin init zsh)"
+# eval "$(atuin init zsh)"
 
 # Keybinds
 
@@ -26,23 +26,16 @@ eval "$(atuin init zsh)"
 # bindkey -s '\es' "tmux-sessionizer -s 3\n"
 
 # Auto-suggest
-bindkey '^[[27;2;13~' autosuggest-accept    # shift+enter
+# bindkey '^[[27;2;13~' autosuggest-accept    # shift+enter
 
 # Aliases
-alias vim='nvim'
-alias tmux="tmux -2"
 alias find='fd'
 alias cat='bat --paging=never'
-alias ls="eza --all --group-directories-first --sort=modified --color=always --icons=always --no-user --no-filesize"
+alias ls='eza -alh --group-directories-first --icons=auto'
 alias lst="eza --all --tree --level=2 --color=always --icons=always --no-user --no-filesize"
 alias grep='rg --smart-case --hidden'
 
 alias scanleaks='gitleaks detect --source . -v'
-alias magic='chmod +x'
-alias unstow='stow -D'
-
-# Prevent accidental overwrites and appends
-set -o noclobber
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

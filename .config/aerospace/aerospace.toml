@@ -47,26 +47,6 @@ run = 'layout floating'
 if.app-name-regex-substring = 'whatsapp'
 run = 'layout floating'
 
-[[on-window-detected]]
-if.app-name-regex-substring = 'camera'
-run = 'layout floating'
-
-[[on-window-detected]]
-if.app-name-regex-substring = 'elgato'
-run = 'layout floating'
-
-[[on-window-detected]]
-if.app-name-regex-substring = 'mail'
-run = 'layout floating'
-
-[[on-window-detected]]
-if.app-name-regex-substring = 'trello'
-run = 'layout floating'
-
-[[on-window-detected]]
-if.app-name-regex-substring = 'quicktime'
-run = 'layout floating'
-
 # Possible values: (qwerty|dvorak)
 # See https://nikitabobko.github.io/AeroSpace/guide#key-mapping
 [key-mapping]
@@ -118,11 +98,10 @@ outer.right =      0
 # '''
 
 alt-f = 'fullscreen'
-alt-y = 'layout floating tiling'
+alt-t = 'layout floating tiling'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#layout
-alt-slash = 'layout tiles horizontal vertical'
-alt-comma = 'layout accordion horizontal vertical'
+alt-u = 'layout tiles horizontal vertical'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#focus
 alt-h = 'focus left --boundaries-action wrap-around-the-workspace'
@@ -171,7 +150,7 @@ alt-shift-enter = 'mode apps'
 alt-enter = 'exec-and-forget open -n /Applications/Ghostty.app'
 alt-b = 'exec-and-forget open -n /Applications/Zen.app'
 alt-d = 'exec-and-forget open -a /Applications/Raycast.app'
-alt-n = 'exec-and-forget open -n /Applications/Obsidian.app'
+alt-o = 'exec-and-forget open -n /Applications/Obsidian.app'
 alt-q = "close --quit-if-last-window"
 
 # 'service' binding mode declaration.
