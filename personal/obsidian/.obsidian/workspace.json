@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sync/Modeling&DataAnalytics/Week 6.md",
+                "file": "sync/zzz/secret sauce.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 6"
+              "title": "secret sauce"
             }
           }
         ]
@@ -33,7 +33,7 @@
       {
         "id": "53dbe316c57eaacb",
         "type": "tabs",
-        "dimension": 77.37556561085972,
+        "dimension": 77.33485193621867,
         "children": [
           {
             "id": "28331d8605e23791",
@@ -63,7 +63,7 @@
       {
         "id": "c480ad953dd55ed4",
         "type": "tabs",
-        "dimension": 22.62443438914027,
+        "dimension": 22.665148063781327,
         "children": [
           {
             "id": "aa934ae5169d9a96",
@@ -88,7 +88,7 @@
       {
         "id": "8a03e2aa7cdae61c",
         "type": "tabs",
-        "dimension": 58.584686774942,
+        "dimension": 59.219088937093275,
         "children": [
           {
             "id": "c869d947d65aa325",
@@ -144,22 +144,22 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sync/WAD2/Week 3.md",
+                "file": "sync/zzz/secret sauce.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Week 3"
+              "title": "Outline of secret sauce"
             }
           }
         ],
         "currentTab": 3
       },
       {
-        "id": "5c2d9f2bfa612ded",
+        "id": "ded9e37607112533",
         "type": "tabs",
-        "dimension": 41.415313225058,
+        "dimension": 40.780911062906725,
         "children": [
           {
             "id": "ad79b05ee8508224",
@@ -175,8 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 245.5,
-    "collapsed": true
+    "width": 219.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,19 +187,18 @@
       "bases:Create new base": false,
       "omnisearch:Omnisearch": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
       "obsidian-kanban:Create new board": false,
       "graph:Open graph view": false
     }
   },
   "active": "8445f7269e6507f7",
   "lastOpenFiles": [
+    "sync/Todo.md",
+    "sync/Modeling&DataAnalytics/Week 6.md",
     "sync/Modeling&DataAnalytics/Week 5.md",
     "sync/Modeling&DataAnalytics/Week 7.md",
-    "sync/Modeling&DataAnalytics/Week 6.md",
     "sync/Modeling&DataAnalytics/Functions.md",
     "sync/Modeling&DataAnalytics/f.md",
-    "sync/Todo.md",
     "sync/Modeling&DataAnalytics/Todo.md",
     "Notes Unsynced.md",
     "sync/Gym/Weight.md",
