@@ -1,90 +1,32 @@
 # Theme
-theme = "rose pine moon"
+theme = TokyoNight
 
 # Font
-font-size = 17
-font-family = JetBrainsMono Nerd Font
-adjust-underline-position = 4
+font-family = "JetBrainsMono Nerd Font"
+font-style = Regular
+font-size = 16
 
-# Cursor
-cursor-style = block
-cursor-style-blink = false
-
-# window
-resize-overlay = never
-background = 000000
-background-opacity = 1
-background-blur = false
-window-step-resize = false
-window-padding-balance = true
-confirm-close-surface = false
+# Window
 window-theme = ghostty
-window-decoration = false
+window-padding-x = 14
+window-padding-y = 14
+confirm-close-surface=false
+resize-overlay = never
+gtk-toolbar-style = flat
 
-# clipboard
-clipboard-trim-trailing-spaces = true
-copy-on-select = clipboard
-
-# Ghostty notifications
+# Notifications
 app-notifications = no-clipboard-copy
 
-# Mouse
-mouse-scroll-multiplier = 1
-# mouse-hide-while-typing = true
+# Cursor styling
+cursor-style = "block"
+cursor-style-blink = false
 
-# behavior
-auto-update = check
-auto-update-channel = stable
-quit-after-last-window-closed = true
-shell-integration-features = no-cursor,sudo,no-title
-
-# gtk
-gtk-single-instance = true
-gtk-tabs-location = bottom
-gtk-wide-tabs = false
-gtk-titlebar = false
+# Keyboard bindings
+keybind = shift+insert=paste_from_clipboard
+keybind = control+insert=copy_to_clipboard
 
 # Macos
-# macos-titlebar-style = hidden
-macos-option-as-alt = true
+macos-titlebar-style = hidden
 
-# Leader = alt+b
-keybind = alt+b>i=inspector:toggle
-keybind = alt+b>t=toggle_quick_terminal
-
-keybind = alt+b>q=close_surface
-
-# this only works if you have `macos-titlebar-style = tabs or native or transparent`
-# else it behaves like new window
-keybind = alt+b>d=new_tab
-keybind = alt+b>comma=move_tab:-1
-keybind = alt+b>period=move_tab:1
-
-# tab nav
-keybind = alt+b>1=goto_tab:1
-keybind = alt+b>2=goto_tab:2
-keybind = alt+b>3=goto_tab:3
-keybind = alt+b>4=goto_tab:4
-keybind = alt+b>5=goto_tab:5
-keybind = alt+b>6=goto_tab:6
-keybind = alt+b>7=goto_tab:7
-keybind = alt+b>8=goto_tab:8
-keybind = alt+b>9=goto_tab:9
-keybind = alt+b>0=goto_tab:10
-
-# splitting
-keybind = alt+b>shift+h=new_split:left
-keybind = alt+b>shift+j=new_split:down
-keybind = alt+b>shift+k=new_split:up
-keybind = alt+b>shift+l=new_split:right
-keybind = alt+b>e=equalize_splits
-
-# split nav (setting this to control will not work if tmux already uses it)
-keybind = alt+b>h=goto_split:left
-keybind = alt+b>j=goto_split:bottom
-keybind = alt+b>k=goto_split:top
-keybind = alt+b>l=goto_split:right
-
-keybind = alt+b>r=reload_config
-keybind = alt+b>z=toggle_split_zoom
-keybind = ctrl+enter=unbind
+# SSH session terminfo
+shell-integration-features = ssh-env, no-cursor, no-title
