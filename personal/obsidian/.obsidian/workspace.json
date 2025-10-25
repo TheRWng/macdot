@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sync/Modeling&DataAnalytics/projectDataLinks.md",
+                "file": "sync/Modeling&DataAnalytics/Project/Project.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "projectDataLinks"
+              "title": "Project"
             }
           }
         ]
@@ -144,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sync/Modeling&DataAnalytics/projectDataLinks.md",
+                "file": "sync/Modeling&DataAnalytics/Project/Project.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of projectDataLinks"
+              "title": "Outline of Project"
             }
           }
         ],
@@ -191,9 +191,11 @@
       "graph:Open graph view": false
     }
   },
-  "active": "3ec9aced6220b1ce",
+  "active": "28331d8605e23791",
   "lastOpenFiles": [
-    "sync/Modeling&DataAnalytics/projectDataLinks.md",
+    "sync/Modeling&DataAnalytics/Project",
+    "sync/Modeling&DataAnalytics/Project/projectDataLinks.md",
+    "sync/Modeling&DataAnalytics/Project/Project.md",
     "sync/zzz/secret sauce.md",
     "sync/Todo.md",
     "sync/Modeling&DataAnalytics/Week 6.md",
@@ -218,8 +220,6 @@
     "sync/Modeling&DataAnalytics/Week 3.md",
     "sync/Modeling&DataAnalytics/Week 4.md",
     "sync/Modeling&DataAnalytics/Notes.md",
-    "sync/Modeling&DataAnalytics/Graded.md",
-    "sync/WAD2/Todo.md",
     "sync/zzz/Pictures/Pasted image 20250926162211.png",
     "sync/zzz/Pictures/Pasted image 20250926161855.png",
     "sync/zzz/Pictures/Pasted image 20250926161513.png",
