@@ -59,18 +59,15 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string># Open Chromium
-open -a "Chromium"
+					<string>#!/bin/bash
 
-# Wait until Chromium is running
-while ! pgrep -x "Chromium" &gt; /dev/null; do
-    sleep 0.2
-done
+# Launch Chrome first
+open -a "Google Chrome"
 
-# Small extra delay to ensure it’s fully ready
-sleep 0.5
+# Wait for Chrome to fully open (adjust if needed)
+sleep 5
 
-# Open Ghostty
+# Launch Ghostty second
 open -a "Ghostty"
 </string>
 					<key>CheckedForUserDefaultShell</key>
@@ -97,7 +94,7 @@ open -a "Ghostty"
 				<key>Class Name</key>
 				<string>RunShellScriptAction</string>
 				<key>InputUUID</key>
-				<string>6070E962-945C-41EB-BD98-5AA9EA12770D</string>
+				<string>7C267F9C-8F49-40BA-8011-70844E255AC9</string>
 				<key>Keywords</key>
 				<array>
 					<string>Shell</string>
@@ -107,9 +104,9 @@ open -a "Ghostty"
 					<string>Unix</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>89349980-7F0C-44D5-ABAE-033F7423A9B5</string>
+				<string>26191BEC-88BD-415E-B44F-0A160F8DA062</string>
 				<key>UUID</key>
-				<string>05AF35A5-96E4-474F-9996-F83CFD645BDC</string>
+				<string>5E3AFEFA-A28D-4E1E-84A9-57AB8240CC5D</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Automator</string>
