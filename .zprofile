@@ -20,3 +20,8 @@ export FZF_ALT_C_OPTS="--ansi --preview 'eza --icons --tree --color=always {} | 
 
 # Tmux settings
 export FZF_TMUX_OPTS="-p90%,70%"
+
+# Setting PATH for Python 3.14
+# The original version is saved in .zprofile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.14/bin:${PATH}"
+export PATH

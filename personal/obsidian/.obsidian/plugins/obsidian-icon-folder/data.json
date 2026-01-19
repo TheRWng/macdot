@@ -33,16 +33,15 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "sync/Modeling&DataAnalytics": "LiFolder",
-  "sync/WAD2": "LiFolder",
-  "sync/Teaching Assistant": "LiFolder",
-  "sync/IDP": "LiFolder",
-  "sync/BusinessProcessAnalysis&Solutioning": "LiFolder",
   "sync/WAD2/Lab Test.md": "LiAlertCircle",
   "sync/Todo.md": "LiAlarmClock",
   "sync/misc": "LiFolder",
   "sync/zzz": "LiFolder",
-  "sync/Modeling&DataAnalytics/Functions.md": "LiFile",
   "sync/Modeling&DataAnalytics/f.md": "LiFile",
-  "sync/Gym": "LiFolder"
+  "sync/Gym": "LiFolder",
+  "sync/Uni/Semester_3/BusinessProcessAnalysis&Solutioning": "LiFolder",
+  "sync/Uni/Semester_3/Modeling&DataAnalytics": "LiFolder",
+  "sync/Uni/Semester_3/IDP": "LiFolder",
+  "sync/Uni/Semester_3/WAD2": "LiFolder",
+  "sync/Uni": "LiFolder"
 }

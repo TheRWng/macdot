@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "c72f022c7dd39027",
+        "id": "1583d621766b7a0d",
         "type": "tabs",
         "children": [
           {
-            "id": "e92b74b3b8482bfd",
+            "id": "9fa8290709e35151",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sync/Modeling&DataAnalytics/script.md",
+                "file": "sync/Todo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "script"
-            }
-          },
-          {
-            "id": "6a6020b8f6ae130d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sync/IDP/script.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "script"
+              "title": "Todo"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sync/IDP/script.md",
+                "file": "sync/WAD2/Week10_Vue_Components.md",
                 "followCursor": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of script"
+              "title": "Outline of Week10_Vue_Components"
             }
           }
         ],
@@ -190,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 219.5
+    "width": 219.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,54 +192,54 @@
       "graph:Open graph view": false
     }
   },
-  "active": "6a6020b8f6ae130d",
+  "active": "9fa8290709e35151",
   "lastOpenFiles": [
-    "sync/Modeling&DataAnalytics/script.md",
-    "sync/IDP/script.md",
-    "sync/Modeling&DataAnalytics/Todo.md",
-    "sync/IDP/IDP Notes.md",
-    "sync/WAD2/Proj/Flow.md",
+    "sync/Uni/Semester_4/ESM/Week_1.md",
     "sync/Todo.md",
-    "sync/BusinessProcessAnalysis&Solutioning/script.md",
-    "sync/WAD2/Proj/TEAM_GUIDE.md",
-    "sync/WAD2/Proj",
-    "sync/WAD2/Proj/Comments.md",
-    "sync/WAD2/Proj/projtodo.md",
-    "sync/WAD2/Proj/Todo.md",
-    "sync/Modeling&DataAnalytics/Functions.md",
-    "sync/Modeling&DataAnalytics/Week 3.md",
-    "sync/Modeling&DataAnalytics/Week 4.md",
-    "sync/Modeling&DataAnalytics/Week 5.md",
-    "sync/ExamTracker.md",
-    "sync/Modeling&DataAnalytics/Project/Project.md",
-    "sync/Modeling&DataAnalytics/Project/Project1.md",
-    "sync/Modeling&DataAnalytics/Project/projectDataLinks.md",
-    "sync/WAD2/Todo.md",
+    "sync/Gym/Treadmill.md",
+    "sync/Uni/Semester_4/DB/Todo.md",
+    "sync/Uni/Semester_4/AF/pandas_notes.md",
+    "sync/Uni/Semester_4/AF/Todo.md",
     "sync/misc/Todo.md",
-    "Todo.md",
-    "HostingReadMe.md",
+    "sync/Uni/Semester_4/TA/Todo.md",
+    "sync/Uni/Semester_4/TA",
+    "sync/Uni/Semester_4/Untitled.md",
+    "sync/Uni/Semester_4/ESM/Todo.md",
+    "sync/Uni/Semester_4/AF/Week1.md",
+    "sync/Internship_Tracker.md",
+    "sync/Uni/Semester_4/DB/Week1.md",
+    "sync/Uni/Semester_4/DB/gemini_notes.md",
+    "sync/Uni/Semester_4/DB/gpt notes.md",
+    "sync/Uni/Semester_4/DB/Graded.md",
+    "sync/Uni/Semester_4/DB/preread.md",
+    "sync/Uni/Semester_4/AIH/Todo.md",
+    "sync/Uni/Semester_4/AF",
+    "sync/Uni/Semester_4/DB",
+    "sync/Uni/Semester_4/ESM",
+    "sync/Uni/Semester_4/AIH",
+    "sync/Uni/Semester_4/ESD/Week 1.md",
+    "sync/Uni/Semester_4/ESD",
+    "sync/misc/temp.md",
+    "sync/Gym/Weight.md",
+    "sync/Uni/Semester_4/AI and Humanity (COR2221)",
+    "sync/Gym/BodyFat%.md",
+    "sync/Gym/TorsoAppendage.md",
     "sync/zzz/secret sauce.md",
-    "sync/zzz/obsidian.md",
-    "sync/IDP/Exam.md",
+    "sync/Uni/Semester_4",
+    "sync/Uni/Semester_3/Untitled",
+    "sync/zzz/Blacklist.md",
+    "sync/Uni/Semester_3/WAD2/Week3b_Javascript.md",
+    "sync/Uni/Semester_3",
+    "Screenshot 2025-11-27 at 14.53.19.jpg",
+    "sync/zzz/Pictures/mda.jpg",
     "sync/zzz/Pictures/Screenshot 2025-11-01 at 18.21.04.jpg",
-    "sync/WAD2/Proj/Firebase",
     "sync/zzz/Pictures/Screenshot 2025-10-27 at 17.39.11.jpg",
-    "sync/Modeling&DataAnalytics/Project",
-    "sync/Gym",
     "sync/zzz/Pictures/Pasted image 20250926162211.png",
     "sync/zzz/Pictures/Pasted image 20250926161855.png",
     "sync/zzz/Pictures/Pasted image 20250926161513.png",
     "sync/zzz/Pictures/Pasted image 20250926160736.png",
     "sync/zzz/Pictures/Pasted image 20250926151903.png",
-    "sync/zzz/Pictures",
     "sync/zzz/pictures/Pasted image 20250903231352.png",
-    "sync/zzz/pictures/Pasted image 20250904000222.png",
-    "sync/zzz/pictures/Pasted image 20250904005658.png",
-    "sync/IDP/AS2",
-    "sync/misc",
-    "sync/Modeling&DataAnalytics/Excel_Functions_Notes.markdown",
-    "sync/Excel_Functions_Notes.markdown",
-    "Excel_Functions_Notes.markdown",
     "Untitled.canvas"
   ]
 }
