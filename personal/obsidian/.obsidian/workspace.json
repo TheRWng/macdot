@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sync/Todo.md",
+                "file": "sync/zzz/secret sauce.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Todo"
+              "title": "secret sauce"
             }
           }
         ]
@@ -194,8 +194,8 @@
   },
   "active": "cce328833843f09e",
   "lastOpenFiles": [
-    "sync/Uni/Semester_4/ESM/Todo.md",
     "sync/Todo.md",
+    "sync/Uni/Semester_4/ESM/Todo.md",
     "sync/Uni/Semester_4/AF/Todo.md",
     "sync/Prac.md",
     "sync/Uni/Semester_4/ESM/Reflections/Week_2.md",
