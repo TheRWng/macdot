@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1583d621766b7a0d",
+        "id": "80e35ab9b48b9c14",
         "type": "tabs",
         "children": [
           {
-            "id": "9fa8290709e35151",
+            "id": "cce328833843f09e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -192,14 +192,18 @@
       "graph:Open graph view": false
     }
   },
-  "active": "9fa8290709e35151",
+  "active": "cce328833843f09e",
   "lastOpenFiles": [
-    "sync/Uni/Semester_4/AF/Todo.md",
-    "sync/Uni/Semester_4/AF/pandas_notes.md",
+    "sync/Uni/Semester_4/ESM/Todo.md",
     "sync/Todo.md",
+    "sync/Uni/Semester_4/AF/Todo.md",
+    "sync/Prac.md",
+    "sync/Uni/Semester_4/ESM/Reflections/Week_2.md",
+    "sync/Uni/Semester_4/ESM/Week_1.md",
+    "sync/Uni/Semester_4/ESM/Reflections",
+    "sync/Uni/Semester_4/AF/pandas_notes.md",
     "sync/Uni/Semester_4/AF/Week1.md",
     "sync/Uni/Semester_4/TA/Todo.md",
-    "sync/Prac.md",
     "sync/misc/Todo.md",
     "sync/Uni/Semester_4/AIH/Todo.md",
     "sync/Uni/Semester_4/DB/Todo.md",
@@ -215,13 +219,10 @@
     "sync/Internship/International",
     "sync/Internship",
     "sync/Uni/Semester_4/AIH/week_2.md",
-    "sync/Uni/Semester_4/ESM/Week_1.md",
     "sync/Uni/Semester_4/DB/preread.md",
     "sync/Uni/Semester_4/ESD/Todo.md",
     "sync/Uni/Semester_4/ESD/Graded.md",
     "sync/Uni/Semester_4/ESD/Week 1.md",
-    "sync/Uni/Semester_4/ESM/Todo.md",
-    "sync/Uni/Semester_4/ESM/complete_dogshit.md",
     "sync/Uni/Semester_4/TA",
     "sync/Uni/Semester_4/AF",
     "sync/Uni/Semester_4/DB",
@@ -229,7 +230,6 @@
     "sync/Uni/Semester_4/AIH",
     "sync/Uni/Semester_4/ESD",
     "sync/Uni/Semester_4/AI and Humanity (COR2221)",
-    "sync/Uni/Semester_4",
     "Screenshot 2025-11-27 at 14.53.19.jpg",
     "sync/zzz/Pictures/mda.jpg",
     "sync/zzz/Pictures/Screenshot 2025-11-01 at 18.21.04.jpg",
