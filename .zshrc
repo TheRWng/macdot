@@ -34,6 +34,7 @@ alias cat='bat --paging=never'
 alias ls='eza -alh --group-directories-first --icons=auto'
 alias lst="eza --all --tree --level=2 --color=always --icons=always --no-user --no-filesize"
 alias grep='rg --smart-case --hidden'
+alias scrcpy='scrcpy --video-bit-rate 8M --max-size 1024 --max-fps 60'
 
 alias scanleaks='gitleaks detect --source . -v'
 
