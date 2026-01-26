@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "38327a3c054aad73",
@@ -195,15 +194,15 @@
   },
   "active": "ba7bf13647b32e2b",
   "lastOpenFiles": [
-    "sync/zzz/secret sauce.md",
-    "sync/Todo.md",
-    "sync/Uni/Semester_4/ESM/Todo.md",
     "sync/Uni/Semester_4/AF/Todo.md",
+    "sync/Todo.md",
+    "sync/Uni/Semester_4/AF/pandas_notes.md",
+    "sync/zzz/secret sauce.md",
+    "sync/Uni/Semester_4/ESM/Todo.md",
     "sync/Prac.md",
     "sync/Uni/Semester_4/ESM/Reflections/Week_2.md",
     "sync/Uni/Semester_4/ESM/Week_1.md",
     "sync/Uni/Semester_4/ESM/Reflections",
-    "sync/Uni/Semester_4/AF/pandas_notes.md",
     "sync/Uni/Semester_4/AF/Week1.md",
     "sync/Uni/Semester_4/TA/Todo.md",
     "sync/misc/Todo.md",
